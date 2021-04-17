@@ -1,12 +1,18 @@
 <header>
+  <br> </br>
+  <header class="post-header">
+    <div style="text-align:center">
+
+    <h1 class="post-title">
+     {% if site.title == "blank" %}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+    </h1>
+     <p class="desc">{{ site.subtitle }}</p>
+  </header>
 
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
       {% if page.title != "about" %}
-      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-       {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
-      </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">

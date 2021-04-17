@@ -84,10 +84,22 @@ a, table.table a {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid $grey-color-light;
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
+
+.navbar-toggler {
+    float:none;
+    margin:0 auto;
+    text-align: center;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    text-align: center;
+}
+
 .navbar.navbar-light {
   a {
     &:hover {
@@ -98,7 +110,7 @@ a, table.table a {
     color: var(--global-text-color);
   }
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-text-color-light);
     &:hover {
       color: var(--global-hover-color);
     }
