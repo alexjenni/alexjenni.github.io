@@ -21,5 +21,5 @@ Department of Economics \\
 Schönberggasse 1 \\
 CH-8001 Zürich
 
-[samuel.skoda@econ.uzh.ch](mailto:samuel.skoda@econ.uzh.ch) \\
+<a class="nice-link-light" href="mailto:samuel.skoda@econ.uzh.ch"> samuel.skoda@econ.uzh.ch </a> \\
 +41 78 720 37 19

@@ -2,9 +2,11 @@
   <br> </br>
   <header class="post-header">
     <div style="text-align:center">
-
     <h1 class="post-title">
-     {% if site.title == "blank" %}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+        <a class="nice-link" href="/">
+          {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+        </a>
+
     </h1>
      <p class="desc">{{ site.subtitle }}</p>
   </header>
@@ -37,9 +39,9 @@
               {% endif %}
             </a>
           </li>
-          {% if site.blog_name %}
+          <!--{% if site.blog_name %}
           <!-- Blog -->
-          <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+          <!-- <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
             <a class="nav-link" href="{{ '/blog/' | relative_url }}">
               BLOG
               {% if page.title == "blog" %}
@@ -47,17 +49,7 @@
               {% endif %}
             </a>
           </li>
-          {% endif %}
-
-          <!-- CV -->
-          <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
-            <a class="nav-link" href="/skoda_cv.pdf">
-                      CV
-              {% if page.title == "cv" %}
-              <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-          </li>
+          {% endif %} -->
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: "title" %}
@@ -81,6 +73,15 @@
               </a>
             </div>
           {% endif %}
+          <!-- CV -->
+          <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
+            <a class="nav-link" href="/skoda_cv.pdf">
+                      CV
+              {% if page.title == "cv" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
         </ul>
       </div>
     </div>

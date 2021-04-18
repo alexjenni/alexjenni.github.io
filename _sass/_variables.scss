@@ -6,6 +6,7 @@
 
 // Colors
 $zh-blue:             #0028a5 !default;
+$zh-blue-light:       #667ec9 !default;
 $red-color:           #FF3636 !default;
 $red-color-dark:      #B71C1C !default;
 $orange-color:        #F29105 !default;
@@ -24,9 +25,9 @@ $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 
-$grey-color:          #828282 !default;
-$grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     darken($grey-color, 25%);
+$grey-color:          #a3adb7 !default;
+$grey-color-light:    lighten($grey-color, 0%);
+$grey-color-dark:     darken($grey-color, 45%);
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
