@@ -166,12 +166,13 @@ a, table.table a {
   }
 }
 
+
 .navbar-toggler {
   .icon-bar {
     display: block;
+    background-color: var(--global-text-color);
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -199,6 +200,15 @@ a, table.table a {
   .bottom-bar {
     transform: rotate(0);
   }
+}
+
+
+ .navbar-toggler:hover {
+  background-color: var(--global-bg-color);
+}
+
+.navbar-toggler:hover .icon-bar {
+  background-color: var(--global-theme-color);
 }
 
 
