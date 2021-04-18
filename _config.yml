@@ -7,9 +7,8 @@ first_name: Samuel
 middle_name:
 last_name: Škoda
 email: samuel.skoda@econ.uzh.ch
-subtitle: PhD. Candidate in Economics, University of Zurich
+subtitle: PhD Candidate in Economics, University of Zurich
 footer_text:
-icon: 🔥 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
