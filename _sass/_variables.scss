@@ -8,6 +8,7 @@
 $zh-blue:             #0028a5 !default;
 $zh-blue-light:       #667ec9 !default;
 $zh-orange:           #dc6027 !default;
+$zh-orange-vlight:    lighten($zh-orange, 42%);
 $red-color:           #FF3636 !default;
 $red-color-dark:      #B71C1C !default;
 $orange-color:        #F29105 !default;
