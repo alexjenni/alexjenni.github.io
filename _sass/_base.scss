@@ -6,35 +6,20 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
-  font-family: 'Fira Sans';
+  font-family: 'Jost';
 }
 
 
-a, table.table a {
-  color: var(--global-theme-color);
-  &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
-  }
-  &:hover:after {
-    width: 100%;
-  }
+ h1, h2, h3, h4, h5, h6 {
+   color: var(--global-title-color);
+  font-weight: bolder;
 }
 
-.desc,  {
-  color: var(--global-title-color);
+.clearfix,  {
+  text-align: left;
 }
 
-.nice-link {
-  color: var(--global-title-color);
-  &:hover {
-    color: var(--global-hover-color);
-    text-decoration: none;
-  }
-}
-
-
-.nice-link-light {
+a  {
   color: var(--global-theme-color);
   &:hover {
     color: var(--global-hover-color-light);
@@ -42,8 +27,17 @@ a, table.table a {
   }
 }
 
+.desc,  {
+  color: var(--global-title-color);
+}
 
-
+.post-title a  {
+  color: var(--global-title-color);
+  &:hover {
+    color: var(--global-text-color);
+    text-decoration: none;
+  }
+}
 // Math
 
 .equation {
@@ -113,6 +107,13 @@ a, table.table a {
   opacity: 0.95;
 }
 
+li {
+    margin-right: 10px;
+}
+.nav li {
+    margin-right: 10px;
+}
+
 .navbar-toggler {
     float:none;
     margin:0 auto;
@@ -137,7 +138,7 @@ a, table.table a {
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color-light);
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-theme-color);
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
@@ -145,7 +146,7 @@ a, table.table a {
       font-weight: bolder;
       color: var(--global-theme-color);
       &:hover {
-        color: var(--global-hover-color);
+        color: var(--global-theme-color);
       }
   }
   .navbar-brand.social {
@@ -170,7 +171,7 @@ a, table.table a {
 .navbar-toggler {
   .icon-bar {
     display: block;
-    background-color: var(--global-text-color);
+    background-color: var(--global-text-color-light);
     width: 22px;
     height: 2px;
     border-radius: 1px;
@@ -222,6 +223,14 @@ a, table.table a {
 .news table th {
   color: var(--global-text-color);
 }
+.news table a{
+  color: var(--global-theme-color);
+  &:hover {
+    color: var(--global-hover-color-light);
+    text-decoration: none;
+  }
+}
+
 
 // Social (bottom)
 
@@ -386,8 +395,8 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: $grey-color-light;
-    border-bottom: 1px solid $grey-color-light;
+    color: $black-color;
+    border-bottom: 1px solid $black-color;
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -442,16 +451,10 @@ footer.sticky-bottom {
         }
       }
       .title {
-        font-weight: bold;
+        font-weight: 600;
       }
       .author {
-        a {
-          color: var(--global-hover-color);
-          &:hover {
-            color: var(--global-hover-color-light);
-            text-decoration: none;
-          }
-        }
+
         > em {
           border-bottom: 1px solid;
           font-style: normal;
@@ -459,15 +462,15 @@ footer.sticky-bottom {
       }
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          color: var(--global-title-color);
+          border: 1px solid var(--global-title-color);
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: var(--global-text-color-mid);
+            border-color: var(--global-text-color-mid);
           }
         }
       }
