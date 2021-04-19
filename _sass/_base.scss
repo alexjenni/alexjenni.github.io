@@ -10,6 +10,9 @@ p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   font-feature-settings: "ss01" 1;
 }
 
+em {
+  font-feature-settings: "ss01" 0;
+}
 
  h1, h2, h3, h4, h5, h6 {
    color: var(--global-title-color);
