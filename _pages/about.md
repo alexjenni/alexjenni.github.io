@@ -18,6 +18,7 @@ social: false  # includes social icons at the bottom of the page
 
 University of Zurich \\
 Department of Economics \\
+Office room SOF-F05 \\
 Schönberggasse 1 \\
 CH-8001 Zürich
 
