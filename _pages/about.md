@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: skoda_pic.jpeg
+  image: skoda_pic.jpg
   address:
 
 
