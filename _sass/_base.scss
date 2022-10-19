@@ -112,7 +112,7 @@ a  {
   box-shadow: none;
   background-color: var(--global-bg-color);
   opacity: 0.95;
-  margin-bottom: -1rem;
+  margin-bottom: -1.75rem;
 }
 
 li {
@@ -430,6 +430,7 @@ footer.sticky-bottom {
   ol.bibliography {
     list-style: none;
     padding: 0;
+    margin-bottom: -1rem;
     margin-top: 0;
     margin-left: 1rem;
 
@@ -514,6 +515,7 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
         margin-bottom: 0.25rem;
+        margin-top: 0.5rem;
       }
     }
   }

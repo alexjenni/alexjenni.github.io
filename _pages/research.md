@@ -17,11 +17,7 @@ nav: true
   {% bibliography -f articles  %}
 </div>
 
-***Pre-doctoral work***
 
-<div class="publications">
-  {% bibliography -f predoc  %}
-</div>
 
 #### Works in progress
 <div class="publications">
