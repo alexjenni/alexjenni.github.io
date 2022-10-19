@@ -6,8 +6,9 @@ description:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: skoda_pic.jpeg
   address:
+
 
 
 news: false  # includes a list of news items
@@ -24,3 +25,8 @@ CH-8001 Zürich
 
 <a href="mailto:samuel.skoda@econ.uzh.ch"> samuel.skoda@econ.uzh.ch </a> \\
 +41 78 720 37 19
+
+
+#### Research fields
+
+Labor Economics, Public Economics
