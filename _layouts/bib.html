@@ -119,6 +119,13 @@
     {% if entry.doi %}
       <a href="{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>
     {% endif %}
+    {% if entry.jmp %}
+      {% if entry.jmp contains '://' %}
+      <a href="{{ entry.jmp }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      {% else %}
+      <a href="{{ entry.jmp | prepend: '' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      {% endif %}
+    {% endif %}
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}
       <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
