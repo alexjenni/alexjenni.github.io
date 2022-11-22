@@ -19,17 +19,19 @@ layout: default
     </div>
     {% endif %}
 
+
     <div class="clearfix">
       {{ content }}
+      {% if page.news %}
+        {% include news.html %}
+      {% endif %}
+      {% if page.selected_papers %}
+          {% include selected_papers.html %}
+      {% endif %}
     </div>
 
-    {% if page.news %}
-      {% include news.html %}
-    {% endif %}
 
-    {% if page.selected_papers %}
-      {% include selected_papers.html %}
-    {% endif %}
+
 
     {% if page.social %}
     <div class="social">
