@@ -14,8 +14,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Setup Ruby, JRuby and TruffleRuby
-      uses: ruby/setup-ruby@v1.123.0
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Setup Ruby
@@ -53,4 +51,4 @@ jobs:
     - name: Deploy website
       run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }}
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
+                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
