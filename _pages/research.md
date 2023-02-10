@@ -6,20 +6,8 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 ---
 
-#### Working papers
-<div class="publications">
-  {% bibliography -f working_papers  %}
-</div>
 
-
-#### Journal articles
-<div class="publications">
-  {% bibliography -f articles  %}
-</div>
-
-
-
-#### Works in progress
+#### Research in progress
 <div class="publications">
   {% bibliography -f in_progress  %}
 </div>

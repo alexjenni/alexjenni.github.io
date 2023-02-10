@@ -1,27 +1,5 @@
-"Seibel":
-  - firstname: ["Regina"]
-    url: https://reginaseibel.github.io
+"Stuhler":
+  - firstname: ["Jan"]
+    url: https://janstuhler.com/
 
-"Palguta":
-  - firstname: ["Ján"]
-    url: https://sites.google.com/site/janpalguta/home
 
-"Pertold":
-  - firstname: ["Filip"]
-    url: https://sites.google.com/site/fpertold/home
-
-"Lichard":
-  - firstname: ["Tomáš"]
-    url: https://home.cerge-ei.cz/tlichard/
-#
-# "Levínský":
-#   - firstname: ["René"]
-#     url: https://www.cerge-ei.cz/researchers/rene-levinsky
-#
-# "Münich":
-#   - firstname: ["Daniel"]
-#     url: https://www.cerge-ei.cz/people/daniel-munich
-#
-# "Jurajda":
-#   - firstname: ["Štěpán"]
-#     url: https://www.cerge-ei.cz/people/stepan-jurajda
