@@ -8,6 +8,7 @@
    padding-right: 10px;
    color: var(--global-text-color);
    background-color: var(--global-bg-color);
+   border-top: 5px solid var(--global-theme-color);
  }
 
  body.fixed-top-nav {
@@ -24,6 +25,20 @@
   max-width: $max-content-width;
 }
 
+.container.mt-5 {
+  border-left: 3px solid var(--global-theme-color);
+  border-right: 3px solid var(--global-theme-color);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1.5rem;
+
+  @media (max-width: 576px) {
+    border-left: none;
+    border-right: none;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
 // Profile
 .profile {
   img {
