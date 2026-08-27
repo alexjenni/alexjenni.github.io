@@ -12,3 +12,7 @@ _Required econometrics course for 200+ first-year Master students. The course co
 ##### Microeconomics for Research Students (PhD) 
 TA for Profs. Marek Pycia and Christian Ewerhart, University of Zurich, Spring 2020 & 2021 \\
 _Required course for first-year PhD students in economics. The course covers topics in game theory, information economics, mechanism design, and contract theory_
+
+##### Thesis Supervision
+University of Zurich, Spring 2021-present \\
+_Supervision of three Bachelor's theses and one Master's thesis_
