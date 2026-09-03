@@ -8,3 +8,11 @@ _site
 .tweet-cache
 Gemfile.lock
 vendor
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk

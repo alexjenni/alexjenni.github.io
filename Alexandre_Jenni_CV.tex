@@ -1,0 +1,108 @@
+%%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Change the font size of your document - 10pt, 12.1pt, etc.
+\documentclass[a4,11pt,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{array}
+\graphicspath{ {images/}} %upload your signature to this file
+%Change the margins to fit your CV/resume content
+\usepackage[left=2.5cm, right=2.5cm, bottom=2.5cm, top=1.8cm]{geometry}
+
+%Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
+\pagenumbering{gobble}
+\newcommand{\headercv}[1]{ & \\[1pt] & \large \textbf{#1}   \\[1pt]	}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
+
+\noindent  \LARGE{\textbf{Alexandre Jenni}}  \\
+\vspace{-2.5ex}
+\normalsize
+
+%%%%%%%%%%%%%%%%% CONTACT INFORMATION %%%%%%%%%%%%%%%%%
+% Your email address, website, and Skype name are links to send email, open your website and add you on Skype. 
+
+\begin{center}
+\begin{tabular}{l l}
+ University of Z\"{u}rich   & \hspace{.5in} \href{alexandre.jenni@econ.uzh.ch}{alexandre.jenni@econ.uzh.ch} \\
+Sch\"{o}nberggasse 1 -  8001 Z\"{u}rich, CH      & \hspace{.5in}   \\
+\end{tabular}
+\end{center}
+
+\hrule
+\vspace{-2pt}
+\renewcommand{\arraystretch}{1.1}
+%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
+\noindent \begin{tabular}{@{} >{\em \small}l  @{\hskip 5pt} p{12.5cm}}
+\vspace{10pt}
+\headercv{Current position} 	
+May 2025-present   & Postdoctoral Researcher, Department of Economics, University of Zurich  \\
+
+\headercv{Work in Progress}	
+&  ``Child Penalty in the extended family'' with Jan Stuhler and Josef Zweimüller  \\	
+   &  ``Firms, inherited professional network and intergenerational mobility''  \\	
+   &  ``Ranking occupations using revealed preferences''  with Simon Zuzek \\
+     &  ``Taxing families''  with Jakob Wegmann and Josef Zweimüller \\ 
+
+\headercv{Education} 	
+Aug. 2018-February 2025   & Ph.D. in Economics, University of Zurich  \\
+    & \quad  - Supervisors: Josef Zweim\"{u}ller and Florian Scheuer \\
+        & \quad - Dissertation title: ``Exploring the determinants of earnings inequalities: child penalty, occupational amenity, and firm management'' \\
+    & \quad - Visiting fellow at Opportunity Insights/Harvard University (Sep. 2022- May 2023)  \\
+    
+Aug. 2014-Sep. 2016  & M.Sc. in Economics,  University of Mannheim  and University Carlos III \\
+ & of Madrid (joint degree)    \\
+    
+Sep. 2010-Jun. 2013  & B.Sc. in Economics, University of Geneva  \\
+   
+
+	
+\headercv{Teaching Experience}	
+Fall 2026 & Introduction to Labor Economics (BA), University of Zurich (co-lecturer) \\
+Spring 2020, 2021 & Microeconomics for Research Students (PhD), University of Zurich (TA) \\
+Fall 2019, 2020    & Empirical Methods (MA), University of Zurich (TA) \\
+Spring 2021-2025 & Supervision of Bachelor (3x) and Master (1x) theses \\
+
+
+\headercv{Relevant Employment Experience}	
+ Mar. 2021-Aug. 2022 & University of Zurich, Research Assistant for Josef Zweim\"{u}ller \\    
+  Jul. 2017-Jun. 2018   & Opportunity Insights, Stanford, Pre-Doctoral Fellow for Raj Chetty,    Nathaniel Hendren, and John Friedman \\
+ Nov. 2016-Apr. 2017 & International Labour Organization, Research Intern  \\
+%Mar. 2015-Jun. 2015 & University of Mannheim, Research Assistant for Prof. Markus Frölich \\  
+
+\end{tabular} 
+
+\noindent \begin{tabular}{@{} >{\em \small}l  @{\hskip 5pt} p{12.5cm}}
+   
+   \headercv{Organisation of Seminars} 
+Fall 2021, Spring 2022   & Empirical Micro Doctoral Seminar (student organizer), UZH \\
+Sep. 2020-Jun. 2021   & Empirical Methods Reading Group (co-organizer), UZH \\
+
+
+
+\headercv{Prizes, Awards, and Fellowships}	
+ May 2025 - Apr. 2026	 & UZH Postdoc Grant (CHF 120,000), University of Zurich \\
+ Sep. 2021-Sep. 2024	 & URPP Equality of Opportunity PhD Scholarship, University of Zurich \\
+ Sep. 2022-May 2023 & UZH Doc.Mobility Fellowship (CHF 38,000 $\approx$ USD 44,000) \\
+ %2015  & ENTER's double Master's program scholarship, University of Mannheim   \\
+ %2013  & Prize for best GPA (B.Sc. in Economics), University of Geneva \\
+
+	\headercv{Languages \& Softwares}	
+  & English, German, Spanish (fluent), French (native)  \\	
+& Matlab, Python, R, Stata  \\
+\end{tabular}
+
+\noindent \begin{tabular}{@{} >{\em \small}l  @{\hskip 5pt} p{12.5cm}}
+   \headercv{Presentation at Workshops and Conferences}
+2023   & SKILS, UZH URPP Equality of Opportunity \\
+2022   & Zurich-Lausanne Workshop ``Job Search and the Labor Market'', \\ & HCEO Briq summer school \\
+\end{tabular}
+
+
+\end{document}

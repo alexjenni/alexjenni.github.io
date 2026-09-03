@@ -17,14 +17,13 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-I am a Postdoctoral Researcher in the Department of Economics at the University of Zurich. I completed my PhD in Economics at the University of Zurich in 2025, supervised by Josef Zweim&uuml;ller and Florian Scheuer, and was previously a visiting fellow at Opportunity Insights, Harvard University (2022-23).
+I am a Postdoctoral Researcher in the Department of Economics and the URPP Human Reproduction Reloaded at the University of Zurich. My research interests lie at the intersection of labor and gender economics, with a particular focus on assortative matching and intergenerational mobility.
 
-My research focuses on intergenerational mobility, family economics, and labor markets.
+I completed my PhD in Economics at the University of Zurich in 2025, under the supervision of Josef Zweim&uuml;ller and Florian Scheuer, and was previously a visiting fellow at Opportunity Insights, Harvard University (2022-23).
 
 #### Research fields
 Labor Economics, Public Economics, Family Economics
 
 #### Contact information
 alexandre.jenni@econ.uzh.ch \\
-University of Zurich \\
-Department of Economics
+Office SOF-J04
