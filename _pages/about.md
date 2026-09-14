@@ -22,7 +22,7 @@ I am a Postdoctoral Researcher in the Department of Economics and the URPP Human
 I completed my PhD in Economics at the University of Zurich in 2025, under the supervision of Josef Zweim&uuml;ller and Florian Scheuer, and was previously a visiting fellow at Opportunity Insights, Harvard University (2022-23).
 
 #### Research fields
-Labor Economics, Public Economics, Family Economics
+Labor and Public Economics, with a focus on Family Economics and Economic Inequality
 
 #### Contact information
 alexandre.jenni@econ.uzh.ch \\
