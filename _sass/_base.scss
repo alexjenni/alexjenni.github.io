@@ -75,24 +75,23 @@ a  {
   width: 100%;
   margin-bottom: 1rem;
   margin-left: -2rem;
+}
 
-  .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-size: 1rem;
-    p {
-      display: inline-block;
-      margin: 0;
-    }
+// Address sits below the content, clearing the floated profile image.
+.address {
+  clear: both;
+  margin-top: 1.5rem;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  p {
+    display: block;
+    margin: 0;
   }
 }
 
 @media (min-width: 576px) {
   .profile {
     width: 54%;
-    .address {
-      p { display: block; }
-    }
   }
 }
 

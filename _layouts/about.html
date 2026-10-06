@@ -11,11 +11,6 @@ layout: default
       {% if page.profile.image %}
         <img class="img-fluid" style="float: left; padding: 0px 50px 30px 50px;" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
       {% endif %}
-      {% if page.profile.address %}
-        <div class="address">
-          {{ page.profile.address }}
-        </div>
-      {% endif %}
     </div>
     {% endif %}
 
@@ -29,6 +24,12 @@ layout: default
           {% include selected_papers.html %}
       {% endif %}
     </div>
+
+    {% if page.profile and page.profile.address %}
+      <div class="address">
+        {{ page.profile.address }}
+      </div>
+    {% endif %}
 
 
 
